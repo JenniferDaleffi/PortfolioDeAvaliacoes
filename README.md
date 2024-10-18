@@ -4,8 +4,11 @@
 ↦ FIAP - Faculdade de Informática e administração Paulista
 
 # INTEGRANTES:
+
 ↦ Jennifer Eduarda Vieira Daleffi - RM557137
+
 ↦ Julia Vasconcelos Oliveira - RM558785
+
 ↦ Leonardo Cadena - RM557528
 
 # Descrição Geral: 

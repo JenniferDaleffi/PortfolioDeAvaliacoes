@@ -3,6 +3,10 @@
 ↦ Professor Alexandre Carlos de Jesus
 ↦ FIAP - Faculdade de Informática e administração Paulista
 
+# FrontEnd 
+
+<img width="96" height="96" src="https://img.icons8.com/color/96/typescript.png" alt="typescript"/> 
+
 # INTEGRANTES:
 
 ↦ Jennifer Eduarda Vieira Daleffi - RM557137

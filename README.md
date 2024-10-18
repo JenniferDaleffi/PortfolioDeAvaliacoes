@@ -30,7 +30,7 @@ com `RouterHandlers`, permitindo adicionar, editar e remover avaliações.
 (CheckPoints, GlobalSolution, Challenger Sprints) utilizando roteamento estático e dinâmico.
 
  - **Fallback e Loading States**: Criar estados de fallback e páginas de carregamento para rotas dinâmicas.
- - 
+  
  - **Efeitos com Templates**: Utilizar efeitos visuais e templates para destacar seções importantes do 
 portfólio
 

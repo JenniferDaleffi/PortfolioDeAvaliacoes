@@ -1,5 +1,6 @@
 import Footer from "../Footer/footer";
 import Menu from "../Menu/menu";
+import Nav from "../Nav/nav";
 
 export default function Cabecalho() {
     return (

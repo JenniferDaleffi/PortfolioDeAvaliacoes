@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: "Portfolio dos alunos leonardo, jennifer, julia, com os projetos construidos no 1 e 2 semestre do curso de analise e desenvolvimento de sistemas",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{

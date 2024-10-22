@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-        <footer>
-            <h3 className="text-center mt-16 text-fiap">Desenvolvido por Leonardo - Jennifer - Julia</h3>
+        <footer className="bg-black p-16">
+            <h3 className="  text-center  text-fiap">Desenvolvido por Jennifer -Leonardo - Julia</h3>
         </footer>
     )
 

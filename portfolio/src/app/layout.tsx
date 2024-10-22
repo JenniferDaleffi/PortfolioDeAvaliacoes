@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
+import Cp from "@/app/checkpoint/page";
 import Cabecalho from "@/components/Cabecalho/cabecalho";
-import "./globals.css";
-import Cp from "@/app/checkpoint/page"
 import Footer from "../components/Footer/footer";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
+  children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Cabecalho />
         <Cp></Cp>
         <Footer></Footer>
+        {children}
       </body>
 
     </html>

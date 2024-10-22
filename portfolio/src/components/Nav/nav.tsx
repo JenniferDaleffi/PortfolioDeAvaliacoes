@@ -1,8 +1,8 @@
-export default function Nav(){
+export default function Nav() {
     return (
-        <div className="flex justify-between items-center" >
+        <div className="bg-black flex justify-between items-center" >
             <div className="m-10">
-                <h1 className="text-2xl">NextJS</h1>
+                <h1 className="text-2xl  text-fiap">F I A P</h1>
             </div>
             <div className="flex gap-8 m-10">
                 <a href="">Home</a>

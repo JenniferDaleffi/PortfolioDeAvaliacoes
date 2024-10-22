@@ -1,17 +1,19 @@
-import Footer from "../Footer/footer";
 import Menu from "../Menu/menu";
-import Nav from "../Nav/nav";
+import Nav from "../Nav/nav"
+import Image from "next/image";
 
 export default function Cabecalho() {
     return (
-        <div>
+        <div className="text-black bg-slate-100    ">
             <header>
-                <h1 className="text-center text-3xl mt-32">Portfólio do Estudades</h1>
+                <Nav></Nav>
+                <div className="text-center">
+                <h1 className="text-5xl mt-2">Portfólio dos Estudantes</h1>
+                </div>
+
             </header>
             <Menu />
-            <Footer />
         </div>
-
 
     )
 

@@ -1,18 +1,18 @@
 export default function Nav(){
     return (
-        <div className="flex justify-around" >
-            <div>
-                <h1>NextJS</h1>
+        <div className="flex justify-between items-center" >
+            <div className="m-10">
+                <h1 className="text-2xl">NextJS</h1>
             </div>
-            <div className="flex gap-8">
+            <div className="flex gap-8 m-10">
                 <a href="">Home</a>
                 <a href="">Challenge</a>
                 <a href="">Global Solution</a>
                 <a href="">Checkpoint</a>
                 <a href="">Us</a>
             </div>
-            <div>
-                <button>Colorized</button>
+            <div className="m-10">
+                <button className="p-2 rounded-md border-black border-solid border-2">Colorized</button>
             </div>
         </div>
     )

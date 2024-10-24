@@ -119,44 +119,44 @@ export default function Leonardo() {
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th>100</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>73</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th>78</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>100</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th>67</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>100</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th>100</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>75</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th>75</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>83</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th>80</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
-                                    <td>80</td>
+                                    <td>---</td>
                                     <td className="p-5">---</td>
                                 </tr>
                             </tbody>

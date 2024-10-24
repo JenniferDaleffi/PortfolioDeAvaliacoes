@@ -8,7 +8,7 @@ import iconType from "../../../../public/images/type.png"
  
  
  
-export default function Jennifer() {
+export default function Julia() {
     return (
         <div className="bg-black">
             <div className="bg-black flex justify-between items-center" >

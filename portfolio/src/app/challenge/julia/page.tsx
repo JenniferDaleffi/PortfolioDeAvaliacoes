@@ -12,14 +12,14 @@ export default function Julia() {
         <div className="bg-black">
             <div className="bg-black flex justify-between items-center" >
                 <div className="m-10">
-                    <Link className="text-2xl  text-fiap" href="/">F I A P</Link>
+                    <h1 className="text-2xl  text-fiap">F I A P</h1>
                 </div>
                 <div className="flex gap-8 m-10">
                     <nav className="text-white">
                         <div className="flex gap-5">
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/jennifer">Jennifer</Link>
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/cadena">Leonardo</Link>
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/julia">Julia</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/challenge/jennifer">Jennifer</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/challenge/cadena">Leonardo</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/challenge/julia">Julia</Link>
                         </div>
                     </nav>
                 </div>
@@ -47,42 +47,51 @@ export default function Julia() {
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <div className=" flex items-center justify-center">
-                            <h1 className="text-4xl text-white flex justify-start"  >Global Solution</h1>
+                            <h1 className="text-4xl text-white flex justify-start" >Challenge</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
-                                    <th scope="col">GS</th>
+                                    <th scope="col">SPNT</th>
 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th className="p-5">100</th>
 
+                                    <td className="p-5">100</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th className="p-5">65</th>
+
+                                    <td className="p-5">93</td>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th className="p-5">74</th>
+
+                                    <td className="p-5">60</td>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">96</th>
+
+                                    <td className="p-5">95</td>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th className="p-5">85</th>
+
+                                    <td className="p-5">85</td>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">77</th>
+
+                                    <td className="p-5">80</td>
+
                                 </tr>
                             </tbody>
                         </table>
@@ -96,7 +105,7 @@ export default function Julia() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">SPNT</th>
-                                    
+
                                 </tr>
                             </thead>
                             <tbody>

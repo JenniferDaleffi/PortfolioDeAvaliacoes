@@ -11,14 +11,14 @@ export default function Jennifer() {
         <div className="bg-black">
             <div className="bg-black flex justify-between items-center" >
                 <div className="m-10">
-                    <h1 className="text-2xl  text-fiap">F I A P</h1>
+                    <Link className="text-2xl  text-fiap" href="/">F I A P</Link>
                 </div>
                 <div className="flex gap-8 m-10">
                     <nav className="text-white">
                         <div className="flex gap-5">
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/jennifer">Jennifer</Link>
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/cadena">Leonardo</Link>
-                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/julia">Julia</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/checkpoint/jennifer">Jennifer</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/checkpoint/cadena">Leonardo</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/checkpoint/julia">Julia</Link>
                         </div>
                     </nav>
                 </div>
@@ -46,58 +46,46 @@ export default function Jennifer() {
                         <div className="bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
+                        <div className=" flex items-center justify-center">
+                            <h1 className="text-4xl text-white flex justify-start"  >CHECKPOINT</h1>
+                        </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">CP</th>
-                                    <th scope="col">GS</th>
-                                    <th scope="col">SPNT</th>
-                                    <th scope="col">MD</th>
+
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th>100</th>
-                                    <td className="p-5">100</td>
-                                    <td>100</td>
-                                    <td className="p-5">100</td>
+                                    <th className="p-5">100</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th>77</th>
-                                    <td className="p-5">98</td>
-                                    <td>83</td>
-                                    <td className="p-5">90</td>
+                                    <th className="p-5">77</th>
+
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th>60</th>
-                                    <td className="p-5">65</td>
-                                    <td>80</td>
-                                    <td className="p-5">67</td>
+                                    <th className="p-5">60</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th>100</th>
-                                    <td className="p-5">98</td>
-                                    <td>95</td>
-                                    <td className="p-5">97</td>
+                                    <th className="p-5">100</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th>82</th>
-                                    <td className="p-5">90</td>
-                                    <td>52</td>
-                                    <td className="p-5">81</td>
+                                    <th className="p-5">82</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th>29</th>
-                                    <td className="p-5">80</td>
-                                    <td>77</td>
-                                    <td className="p-5">69</td>
+                                    <th className="p-5">29</th>
+
                                 </tr>
                             </tbody>
                         </table>
@@ -111,53 +99,34 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">CP</th>
-                                    <th scope="col">GS</th>
-                                    <th scope="col">SPNT</th>
-                                    <th scope="col">MD</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th>95</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">95</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th>---</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">--</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th>---</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th>100</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">100</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th>---</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th>80</th>
-                                    <td className="p-5">---</td>
-                                    <td>---</td>
-                                    <td className="p-5">---</td>
+                                    <th className="p-5">80</th>
                                 </tr>
                             </tbody>
                         </table>

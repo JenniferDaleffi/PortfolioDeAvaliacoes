@@ -12,7 +12,7 @@ export default function Julia() {
         <div className="bg-black">
             <div className="bg-black flex justify-between items-center" >
                 <div className="m-10">
-                    <Link className="text-2xl  text-fiap" href="/">F I A P</Link>
+                    <h1 className="text-2xl  text-fiap">F I A P</h1>
                 </div>
                 <div className="flex gap-8 m-10">
                     <nav className="text-white">
@@ -46,43 +46,58 @@ export default function Julia() {
                         <div className="bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
-                        <div className=" flex items-center justify-center">
-                            <h1 className="text-4xl text-white flex justify-start"  >Global Solution</h1>
-                        </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
+                                    <th scope="col">CP</th>
                                     <th scope="col">GS</th>
-
+                                    <th scope="col">SPNT</th>
+                                    <th scope="col">MD</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th className="p-5">100</th>
-
+                                    <th>100</th>
+                                    <td className="p-5">100</td>
+                                    <td>100</td>
+                                    <td className="p-5">100</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th className="p-5">65</th>
-
+                                    <th>74</th>
+                                    <td className="p-5">95</td>
+                                    <td>93</td>
+                                    <td className="p-5">86</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th className="p-5">74</th>
+                                    <th>72</th>
+                                    <td className="p-5">62</td>
+                                    <td>60</td>
+                                    <td className="p-5">66</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">96</th>
+                                    <th>96</th>
+                                    <td className="p-5">95</td>
+                                    <td>95</td>
+                                    <td className="p-5">95</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th className="p-5">85</th>
+                                    <th>81</th>
+                                    <td className="p-5">65</td>
+                                    <td>85</td>
+                                    <td className="p-5">71</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">77</th>
+                                    <th>71</th>
+                                    <td className="p-5">75</td>
+                                    <td>80</td>
+                                    <td className="p-5">73</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -95,36 +110,54 @@ export default function Julia() {
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
+                                    <th scope="col">CP</th>
+                                    <th scope="col">GS</th>
                                     <th scope="col">SPNT</th>
-                                    
+                                    <th scope="col">MD</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th className="p-5">--</th>
-
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th className="p-5">--</th>
-
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th className="p-5">--</th>
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">--</th>
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th className="p-5">--</th>
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">--</th>
+                                    <th>---</th>
+                                    <td className="p-5">---</td>
+                                    <td>---</td>
+                                    <td className="p-5">---</td>
                                 </tr>
                             </tbody>
                         </table>

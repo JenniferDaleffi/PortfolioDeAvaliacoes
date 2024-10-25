@@ -1,51 +1,49 @@
-import Link from "next/link"
 import Image from "next/image"
-import Jenniferfoto from "../../../../public/images/jennifer.png"
-import Grafico from "../../../../public/images/Blue and White Weekly House Expenses Chart Graph.png"
+import Link from "next/link"
 import iconPy from "../../../../public/images/icons8-python-100.png"
-import iconJava from "../../../../public/images/iconjava.png"
-import iconMongo from "../../../../public/images/mongodb.png"
- 
- 
-export default function Jennifer() {
+import iconJavascript from "../../../../public/images/javascripticon.png"
+import Leonardofoto from "../../../../public/images/leocadena.png"
+import iconType from "../../../../public/images/type.png"
+
+export default function Leonardo() {
     return (
         <div className="bg-black">
             <div className="bg-black flex justify-between items-center" >
                 <div className="m-10">
-                    <h1 className="text-2xl  text-fiap">F I A P</h1>
+                    <Link className="text-2xl  text-fiap" href="/">F I A P</Link>
                 </div>
                 <div className="flex gap-8 m-10">
                     <nav className="text-white">
                         <div className="flex gap-5">
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/jennifer">Jennifer</Link>
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/cadena">Leonardo</Link>
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/julia">Julia</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/jennifer">Jennifer</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/cadena">Leonardo</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/gs/julia">Julia</Link>
                         </div>
                     </nav>
                 </div>
                 <div className="m-10">
-                <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+                    <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
                 </div>
             </div>
             <div className="ml-10 mt-10 flex justify-between">
                 <div className="text-center">
-                <Image className="rounded-full w-80 h-80 " src={Jenniferfoto} alt="Foto da Jennifer"/>
-                <h1 className="text-2xl mt-5 text-fiap" >Back-end Java e</h1>
-                <h1 className="text-2xl mt-3 text-fiap" >Análise de Dados</h1>
+                    <Image className="rounded-full w-80 h-80 " src={Leonardofoto} alt="Foto da Jennifer" />
+                    <h1 className="text-2xl mt-5 text-fiap" >Desenvolvedor de Software e</h1>
+                    <h1 className="text-2xl mt-3 text-fiap" >Frontend</h1>
                 </div>
                 <div className="max-w-xl">
-                    <h1 className="text-5xl text-fiap" >Jennifer Daleffi</h1>
-                    <p className="mt-5 text-xl break-words text-white">Atualmente, estudante de Análise e Desenvolvimento de Sistemas na FIAP e formada em Mecânica pelo IFSP. Proatividade, comunicação e liderança  em projetos acadêmicos são características marcantes, sempre visando o bom desenvolvimento.</p>
+                    <h1 className="text-5xl text-fiap" >Leonardo Cadena</h1>
+                    <p className="mt-5 text-xl break-words text-white">Me chamo Leonardo Cadena de Souza, tenho 18 anos, busco oportunidades na area de desenvolvimento de software. Me formei no ensino medio e agora estou cursando o 2° semestre na Faculdade de Informática e Administração Paulista (FIAP), cursando Análise e Desenvolvimento de Sistemas. Buscando sempre evoluir meu conhecimento através de cursos e pesquisas, com foco em desenvolvimento front-end.</p>
                     <div className="flex mt-10 justify-center">
+                        <Image width={90} src={iconJavascript} alt="javascript"></Image>
                         <Image width={90} src={iconPy} alt="python"></Image>
-                        <Image width={90} src={iconJava} alt="java"></Image>
-                        <Image width={90} src={iconMongo} alt="mongo"></Image>
+                        <Image width={90} src={iconType} alt="typescript"></Image>
                     </div>
                 </div>
                 <div className="mr-10">
                     <div>
                         <div className="bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
-                        <h1 className="text-4xl text-white" >1º</h1>
+                            <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
@@ -67,47 +65,47 @@ export default function Jennifer() {
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th>77</th>
-                                    <td className="p-5">98</td>
-                                    <td>83</td>
-                                    <td className="p-5">90</td>
+                                    <th>65</th>
+                                    <td className="p-5">95</td>
+                                    <td>93</td>
+                                    <td className="p-5">83</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th>60</th>
-                                    <td className="p-5">65</td>
-                                    <td>80</td>
+                                    <th>74</th>
+                                    <td className="p-5">62</td>
+                                    <td>60</td>
                                     <td className="p-5">67</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th>100</th>
-                                    <td className="p-5">98</td>
+                                    <th>96</th>
+                                    <td className="p-5">95</td>
                                     <td>95</td>
-                                    <td className="p-5">97</td>
+                                    <td className="p-5">95</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th>82</th>
-                                    <td className="p-5">90</td>
-                                    <td>52</td>
-                                    <td className="p-5">81</td>
+                                    <th>85</th>
+                                    <td className="p-5">65</td>
+                                    <td>85</td>
+                                    <td className="p-5">73</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th>29</th>
-                                    <td className="p-5">80</td>
-                                    <td>77</td>
-                                    <td className="p-5">69</td>
+                                    <th>77</th>
+                                    <td className="p-5">75</td>
+                                    <td>80</td>
+                                    <td className="p-5">76</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
                     <div>
                         <div className="mt-5 bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
-                        <h1 className="text-4xl text-white" >2º</h1>    
-                    </div>
-                    <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
+                            <h1 className="text-4xl text-white" >2º</h1>
+                        </div>
+                        <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
@@ -120,7 +118,7 @@ export default function Jennifer() {
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th>95</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
                                     <td>---</td>
                                     <td className="p-5">---</td>
@@ -141,7 +139,7 @@ export default function Jennifer() {
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th>100</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
                                     <td>---</td>
                                     <td className="p-5">---</td>
@@ -155,7 +153,7 @@ export default function Jennifer() {
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th>80</th>
+                                    <th>---</th>
                                     <td className="p-5">---</td>
                                     <td>---</td>
                                     <td className="p-5">---</td>
@@ -166,6 +164,6 @@ export default function Jennifer() {
                 </div>
             </div>
         </div>
-       
+
     )
 }

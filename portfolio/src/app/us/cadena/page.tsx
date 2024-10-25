@@ -1,11 +1,10 @@
-import Link from "next/link"
 import Image from "next/image"
-import Leonardofoto from "../../../../public/images/leocadena.png"
-import Grafico from "../../../../public/images/Blue and White Weekly House Expenses Chart Graph.png"
-import iconJavascript from "../../../../public/images/javascripticon.png"
-import iconType from "../../../../public/images/type.png"
+import Link from "next/link"
 import iconPy from "../../../../public/images/icons8-python-100.png"
- 
+import iconJavascript from "../../../../public/images/javascripticon.png"
+import Leonardofoto from "../../../../public/images/leocadena.png"
+import iconType from "../../../../public/images/type.png"
+
 export default function Leonardo() {
     return (
         <div className="bg-black">
@@ -16,21 +15,21 @@ export default function Leonardo() {
                 <div className="flex gap-8 m-10">
                     <nav className="text-white">
                         <div className="flex gap-5">
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/jennifer">Jennifer</Link>
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/cadena">Leonardo</Link>
-                        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/julia">Julia</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/jennifer">Jennifer</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/cadena">Leonardo</Link>
+                            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/us/julia">Julia</Link>
                         </div>
                     </nav>
                 </div>
                 <div className="m-10">
-                <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+                    <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
                 </div>
             </div>
             <div className="ml-10 mt-10 flex justify-between">
                 <div className="text-center">
-                <Image className="rounded-full w-80 h-80 " src={Leonardofoto} alt="Foto da Jennifer"/>
-                <h1 className="text-2xl mt-5 text-fiap" >Desenvolvedor de Software e</h1>
-                <h1 className="text-2xl mt-3 text-fiap" >Frontend</h1>
+                    <Image className="rounded-full w-80 h-80 " src={Leonardofoto} alt="Foto da Jennifer" />
+                    <h1 className="text-2xl mt-5 text-fiap" >Desenvolvedor de Software e</h1>
+                    <h1 className="text-2xl mt-3 text-fiap" >Frontend</h1>
                 </div>
                 <div className="max-w-xl">
                     <h1 className="text-5xl text-fiap" >Leonardo Cadena</h1>
@@ -44,7 +43,7 @@ export default function Leonardo() {
                 <div className="mr-10">
                     <div>
                         <div className="bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
-                        <h1 className="text-4xl text-white" >1º</h1>
+                            <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
@@ -68,35 +67,35 @@ export default function Leonardo() {
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th>65</th>
                                     <td className="p-5">95</td>
-                                    <td>---</td>
+                                    <td>93</td>
                                     <td className="p-5">83</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th>74</th>
                                     <td className="p-5">62</td>
-                                    <td>---</td>
+                                    <td>60</td>
                                     <td className="p-5">67</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th>96</th>
                                     <td className="p-5">95</td>
-                                    <td>---</td>
+                                    <td>95</td>
                                     <td className="p-5">95</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th>85</th>
                                     <td className="p-5">65</td>
-                                    <td>---</td>
+                                    <td>85</td>
                                     <td className="p-5">73</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th>77</th>
                                     <td className="p-5">75</td>
-                                    <td>---</td>
+                                    <td>80</td>
                                     <td className="p-5">76</td>
                                 </tr>
                             </tbody>
@@ -104,9 +103,9 @@ export default function Leonardo() {
                     </div>
                     <div>
                         <div className="mt-5 bg-fiap w-20 h-20 rounded-full flex items-center justify-center">
-                        <h1 className="text-4xl text-white" >2º</h1>    
-                    </div>
-                    <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
+                            <h1 className="text-4xl text-white" >2º</h1>
+                        </div>
+                        <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
@@ -165,6 +164,6 @@ export default function Leonardo() {
                 </div>
             </div>
         </div>
-       
+
     )
 }

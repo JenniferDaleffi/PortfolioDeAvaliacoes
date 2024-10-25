@@ -62,28 +62,28 @@ export default function Julia() {
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th>100</th>
                                     <td className="p-5">100</td>
-                                    <td>---</td>
+                                    <td>100</td>
                                     <td className="p-5">100</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th>74</th>
                                     <td className="p-5">95</td>
-                                    <td>---</td>
+                                    <td>93</td>
                                     <td className="p-5">86</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th>72</th>
                                     <td className="p-5">62</td>
-                                    <td>---</td>
+                                    <td>60</td>
                                     <td className="p-5">66</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th>96</th>
                                     <td className="p-5">95</td>
-                                    <td>---</td>
+                                    <td>95</td>
                                     <td className="p-5">95</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
@@ -97,7 +97,7 @@ export default function Julia() {
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th>71</th>
                                     <td className="p-5">75</td>
-                                    <td>---</td>
+                                    <td>85</td>
                                     <td className="p-5">73</td>
                                 </tr>
                             </tbody>

@@ -54,44 +54,40 @@ export default function Julia() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">SPNT</th>
+                                    <th scope="col">FEEDBACK</th>
 
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr className="border-solid border-2 border-black">
+                            <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
+                                    <td>100</td>
+                                    <th>No geral, o projeto ConnectCar apresenta uma solução bem estruturada para modernizar o setor de serviços automotivos.</th>
 
-                                    <td className="p-5">100</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-
-                                    <td className="p-5">93</td>
-
+                                    <th>65</th>
+                                    <td className="p-5">Não entregou o descritivo do projeto (arquivo docx vazio);</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
+                                    <th>74</th>
+                                    <td className="p-5">ok - conceitos aplicados na solução, porém, poderiam ter explorado mais o que tange a regra de negócio da solução proposta.
 
-                                    <td className="p-5">60</td>
-
+                                    </td>
+                                  
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-
-                                    <td className="p-5">95</td>
-
+                                    <th>96</th>
+                                    <td className="p-5">no Diagrama de classes (UML) é plausível uma maior abstração dos atributos nas classes Diagrama de classes para resolução do problema proposto</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-
-                                    <td className="p-5">85</td>
-
-                                </tr>
-                                <tr className="border-solid border-2 border-black">
-                                    <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-
-                                    <td className="p-5">80</td>
-
+                                    <th>85</th>
+                                    <td className="p-5">O projeto ficou bom, apesar das falhas técnicas.</td>
+                                    
                                 </tr>
                             </tbody>
                         </table>

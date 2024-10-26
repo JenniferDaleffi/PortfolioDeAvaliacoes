@@ -60,44 +60,39 @@ export default function Leonardo() {
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-
                                     <td>100</td>
+                                    <th>No geral, o projeto ConnectCar apresenta uma solução bem estruturada para modernizar o setor de serviços automotivos.</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th>65</th>
-                                    <td className="p-5">95</td>
-                                    <td>93</td>
-                                    <td className="p-5">83</td>
+                                    <td className="p-5">Não entregou o descritivo do projeto (arquivo docx vazio);</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th>74</th>
-                                    <td className="p-5">62</td>
-                                    <td>60</td>
-                                    <td className="p-5">67</td>
+                                    <td className="p-5">ok - conceitos aplicados na solução, porém, poderiam ter explorado mais o que tange a regra de negócio da solução proposta.
+
+                                    </td>
+                                  
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th>96</th>
-                                    <td className="p-5">95</td>
-                                    <td>95</td>
-                                    <td className="p-5">95</td>
+                                    <td className="p-5">no Diagrama de classes (UML) é plausível uma maior abstração dos atributos nas classes Diagrama de classes para resolução do problema proposto</td>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th>85</th>
-                                    <td className="p-5">65</td>
-                                    <td>85</td>
-                                    <td className="p-5">73</td>
+                                    <td className="p-5">O projeto ficou bom, apesar das falhas técnicas.</td>
+                                    
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th>77</th>
-                                    <td className="p-5">75</td>
-                                    <td>80</td>
-                                    <td className="p-5">76</td>
+                                    <td className="p-5">Ficou legal todos os membros do grupo participarem do vídeo. </td>
+                                   
                                 </tr>
                             </tbody>
                         </table>

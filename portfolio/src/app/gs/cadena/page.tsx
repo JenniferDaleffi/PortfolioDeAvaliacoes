@@ -53,6 +53,7 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">GS</th>
+                                    <th scope="col">FEEDBACK</th>
 
                                 </tr>
                             </thead>
@@ -60,28 +61,36 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">100</th>
+                                    <th className="p-5">Fala grupo, perfeito!!! Consegui entender as varáives de contexto, entidades e inteções. Além do STT e TSS. A integração com front ficou showww!! Parabéns!</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">65</th>
+                                    <th className="p-5">Ponto de Atenção:
+- Repensem a utilização de campos obrigatórios para não "quebrar" o seu projeto, exemplo: na modelagem é possivel cadastrar uma ong somente com o ID_ONG preenchido;
+- A foto da modelagem relacional não ficou legal, parecendo que foi feito as pressas, com algumas informações cortadas.</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">74</th>
+                                    <th className="p-5"> Faltou abordar a identificação do problema e a solução proposta. Foi apresentado apenas o Demo da Solução, porém, sem uma explicação do código.</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th className="p-5">96</th>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">85</th>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th className="p-5">77</th>
+                                    <th className="p-5"> Tem que analisar o contexto da aplicação para chegar numa solução específica e que mostre os resultados adequados para o problema que vocês estão trabalhando. Um requisito não-funcional pode ser tão ou mais importante que um requisito funcional.</th>
                                 </tr>
                             </tbody>
                         </table>
@@ -102,27 +111,34 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
+                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
+                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
+                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
                                 </tr>
                             </tbody>

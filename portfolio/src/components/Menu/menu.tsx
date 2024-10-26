@@ -29,10 +29,10 @@ export default function Menu() {
                 </div>
             </div>
             <div>
-                        <div className="mt-5 w-20 h-20 flex items-center justify-center">
+                        <div className=" flex items-center justify-center">
                             <h1 className="text-4xl text-white" > Desempenho </h1>
                         </div>
-                        <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
+                        <table className="text-white bg-fiap rounded-lg mb-5 mt-5 justify-content">
                             <thead>
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>

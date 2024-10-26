@@ -61,6 +61,7 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">100</th>
+                                    
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
@@ -131,6 +132,7 @@ export default function Jennifer() {
                             </tbody>
                         </table>
                     </div>
+                    
                 </div>
             </div>
         </div>

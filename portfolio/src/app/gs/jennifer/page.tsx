@@ -54,6 +54,7 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">GS</th>
+                                    <th scope="col">FEEDBACK</th>
 
                                 </tr>
                             </thead>
@@ -61,27 +62,34 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">100</th>
+                                    <th className="p-5">Atenderam a todos os pré-requisitos, Parabens Equipe</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">77</th>
+                                    <th className="p-5">Ok</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">60</th>
+                                    <th className="p-5">Código pouco explorado para as funções pedidas</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th className="p-5">100</th>
+                                    <th className="p-5">Ótimo projeto! parabéns para a equipe</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">82</th>
+                                    <th className="p-5">Parabéns</th>
+
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th className="p-5">29</th>
+                                    <th className="p-5">O model canvas está em baixa qualidade, se atentar na entrega</th>
                                 </tr>
                             </tbody>
                         </table>
@@ -95,6 +103,7 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">GS</th>
+                                    <th scope="col">FEEDBACK</th>
 
                                 </tr>
                             </thead>
@@ -102,27 +111,33 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
+                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th className="p-5">--</th>
+                                    <th >--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">--</th>
+                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
+                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
                                 </tr>
                             </tbody>

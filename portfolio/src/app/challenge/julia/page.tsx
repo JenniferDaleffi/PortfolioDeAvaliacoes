@@ -87,6 +87,11 @@ export default function Julia() {
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th>85</th>
                                     <td className="p-5">O projeto ficou bom, apesar das falhas técnicas.</td>
+                                    </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
+                                    <th>77</th>
+                                    <td className="p-5">Ficou legal todos os membros do grupo participarem do vídeo. </td>
                                     
                                 </tr>
                             </tbody>

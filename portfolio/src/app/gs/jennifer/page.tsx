@@ -67,28 +67,28 @@ export default function Jennifer() {
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th className="p-5">77</th>
+                                    <th className="p-5">98</th>
                                     <th className="p-5">Ok</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th className="p-5">60</th>
+                                    <th className="p-5">65</th>
                                     <th className="p-5">Código pouco explorado para as funções pedidas</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">100</th>
+                                    <th className="p-5">98</th>
                                     <th className="p-5">Ótimo projeto! parabéns para a equipe</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th className="p-5">82</th>
+                                    <th className="p-5">90</th>
                                     <th className="p-5">Parabéns</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">29</th>
+                                    <th className="p-5">80</th>
                                     <th className="p-5">O model canvas está em baixa qualidade, se atentar na entrega</th>
                                 </tr>
                             </tbody>

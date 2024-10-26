@@ -1,5 +1,5 @@
 export type TipoMateria = {
-    $disciplina:string;
+    $id:string;
     disciplina:string;
     Jennifer:number;
     Julia: number;

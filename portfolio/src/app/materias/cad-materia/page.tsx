@@ -2,6 +2,7 @@
 
 
 import { TipoMateria } from "@/types/types";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react"
 
@@ -10,7 +11,7 @@ export default function CadProduto() {
   const navigate = useRouter();
 
   const [materia, setMateria] = useState<TipoMateria>({
-    $disciplina:"",
+    $id:"",
     disciplina: "",
     Jennifer: 0.0,
     Julia: 0.0,
@@ -21,7 +22,7 @@ export default function CadProduto() {
     
     e.preventDefault();
     try {
-      const response = await fetch("/api/base-disciplina", {
+      const response = await fetch("http://localhost:3000/api/base-disciplina", {
         method: "POST",
         headers:{"Content-Type":"application/json"},
         body: JSON.stringify(materia),
@@ -31,7 +32,7 @@ export default function CadProduto() {
           const data = await response.json();
           alert("Materia cadastrado com sucesso!");
           setMateria({
-            $disciplina:"",
+            $id:"",
             disciplina: "",
             Jennifer: 0.0,
             Julia: 0.0,
@@ -46,34 +47,40 @@ export default function CadProduto() {
   }
 
   return (
-    <div>
-        <h1>Cadastro de Materias</h1>
+    <div className="w-full h-screen bg-black">
+        <div className="p-10 flex gap-6 items-center justify-center">
+            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black px-6" href="/">Home</Link>
+            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black px-6" href="/materias">Notas</Link>
+        </div>
         
-        <div>
-            <form onSubmit={handleSubmit}>
-                <div>
-                  <label>Disciplina:</label>
-                  <input type="text" name="nome" value={materia.disciplina} placeholder="Digite o nome da disciplina." required 
+
+        <h1 className="text-5xl mt-20 text-white text-center p-6">Cadastro<span className="text-fiap"> de Materias</span> </h1>
+        
+        <div className="flex items-center justify-center h-[40rem]">
+            <form onSubmit={handleSubmit} className="flex flex-col w-1/4 h-3/4 px-8 justify-center gap-6 bg-fiap rounded-xl">
+                <div className="flex items-center justify-center" >
+                  <label className="text-2xl text-white p-3">Disciplina:</label>
+                  <input className="px-4 py-2 rounded-md w-96" type="text" name="nome" value={materia.disciplina} placeholder="Digite o nome da disciplina." required 
                     onChange={(e)=> setMateria({...materia, disciplina: e.target.value})}
                   />
                 </div>
-                <div>
-                  <label>Jennifer:</label>
-                  <input type="number" name="preco" value={materia.Jennifer} placeholder="Digite a nota da jennifer." required
+                <div className="flex items-center justify-center">
+                  <label className="text-2xl text-white p-3">Jennifer:</label>
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="preco" value={materia.Jennifer} placeholder="Digite a nota da jennifer." required
                   onChange={(e)=> setMateria({...materia, Jennifer: parseFloat(e.target.value)})}  min={0}/>
                 </div>
-                <div>
-                  <label>Julia:</label>
-                  <input type="number" name="estoque" value={materia.Julia} placeholder="Digite a nota da julia" required
+                <div className="flex items-center justify-center">
+                  <label className="text-2xl text-white p-3">Julia:</label>
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="estoque" value={materia.Julia} placeholder="Digite a nota da julia" required
                   onChange={(e)=> setMateria({...materia, Julia: parseInt(e.target.value)})}  min={0}/>
                 </div>
-                <div>
-                  <label>Leonardo:</label>
-                  <input type="number" name="estoque" value={materia.Leonardo} placeholder="Digite a nota do leonardo." required
+                <div className=" flex items-center justify-center">
+                  <label className="text-2xl text-white p-3">Leonardo:</label>
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="estoque" value={materia.Leonardo} placeholder="Digite a nota do leonardo." required
                   onChange={(e)=> setMateria({...materia, Leonardo: parseInt(e.target.value)})}  min={0}/>
                 </div>
-                <div>
-                  <button type="submit">Cadastrar</button>
+                <div className="text-center">
+                  <button className="px-4 py-2 bg-white rounded-2xl hover:bg-black hover:text-white text-xl hover:duration-500" type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>

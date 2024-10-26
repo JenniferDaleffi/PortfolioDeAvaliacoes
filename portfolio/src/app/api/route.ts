@@ -20,8 +20,8 @@ export async function GET() {
 
 export async function POST(request:Request) {
     try {
-        const{disciplina,Jennifer,Julia, Leonardo} = await request.json();
-        const materia = {disciplina,Jennifer,Julia, Leonardo} as TipoMateria;
+        const{disciplina, Jennifer, Julia, Leonardo} = await request.json();
+        const materia = {disciplina, Jennifer, Julia, Leonardo} as TipoMateria;
         const response = await database.createDocument(process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string, process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string, ID.unique(), materia);
 
         return NextResponse.json(response,{status:201});

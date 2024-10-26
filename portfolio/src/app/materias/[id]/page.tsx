@@ -1,15 +1,16 @@
 "use client"
 
 import { TipoMateria } from "@/types/types";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react"
 
-export default function EditarProduto({params}:{params:{disciplina:string}}) {
+export default function EditarMaterias({params}:{params:{id:number}}) {
 
   const navigate = useRouter();
 
   const [materia, setMateria] = useState<TipoMateria>({
-    $disciplina:"",
+    $id:"",
     disciplina: "",
     Jennifer: 0.0,
     Julia: 0.0,
@@ -18,18 +19,18 @@ export default function EditarProduto({params}:{params:{disciplina:string}}) {
 
   useEffect(() => {
     const chamaApi = async () => {
-        const response = await fetch(`/api/base-disciplinas/${params.disciplina}`);
+        const response = await fetch(`http://localhost:3000/api/base-disciplina/${params.id}`);
         const data = await response.json();
         setMateria(data);
     }
     chamaApi();
-}, [params.disciplina])
+}, [params.id])
 
   const handleSubmit = async (e:React.FormEvent<HTMLFormElement>)=>{
     
     e.preventDefault();
     try {
-      const response = await fetch(`/api/base-disciplinas/${params.disciplina}`, {
+      const response = await fetch(`/api/base-disciplina/${params.id}`, {
         method: "PUT",
         headers:{"Content-Type":"application/json"},
         body: JSON.stringify(materia),
@@ -39,7 +40,7 @@ export default function EditarProduto({params}:{params:{disciplina:string}}) {
           const data = await response.json();
           alert("Materia atualizado com sucesso!");
           setMateria({
-            $disciplina:"",
+            $id:"",
             disciplina: "",
             Jennifer: 0.0,
             Julia: 0.0,
@@ -55,6 +56,9 @@ export default function EditarProduto({params}:{params:{disciplina:string}}) {
 
   return (
     <div>
+      <div className="m-10">
+          <Link className="text-black p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+      </div>
         <h1>Editar Materias</h1>
         
         <div>

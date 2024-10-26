@@ -39,7 +39,6 @@ export default function Menu() {
                                     <th scope="col">Jennifer</th>
                                     <th scope="col">Julia</th>
                                     <th scope="col">Leonardo</th>
-                                    
                                 </tr>
                             </thead>
                             <tbody>
@@ -83,9 +82,15 @@ export default function Menu() {
                                     <th>69</th>
                                     <td className="p-5">73</td>
                                     <td>76</td>
-                                    
                                 </tr>
                             </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colSpan={4}>
+                                        <h2 className="text-center">Quantidade de registros: 6</h2>
+                                    </td>
+                                </tr>
+                            </tfoot>
                         </table>
                     </div>
         </div>

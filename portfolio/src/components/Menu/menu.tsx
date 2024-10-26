@@ -28,6 +28,66 @@ export default function Menu() {
                     <Link className="text-white border-black border-solid border-2 p-3 bg-fiap rounded-md hover:bg-black hover:border-white  transition duration-500 " href="">Challenge</Link>
                 </div>
             </div>
+            <div>
+                        <div className="mt-5 w-20 h-20 flex items-center justify-center">
+                            <h1 className="text-4xl text-white" > Desempenho </h1>
+                        </div>
+                        <table className="text-white bg-fiap rounded-lg mb-5 mt-5">
+                            <thead>
+                                <tr className="border-solid border-2 border-black">
+                                    <th scope="col">DISCIPLINA</th>
+                                    <th scope="col">Jennifer</th>
+                                    <th scope="col">Julia</th>
+                                    <th scope="col">Leonardo</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Artificial Intelligence</th>
+                                    <th>100</th>
+                                    <td className="p-5">100</td>
+                                    <td>100</td>
+                                    
+                                </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Building Relational Database</th>
+                                    <th>90</th>
+                                    <td className="p-5">86</td>
+                                    <td>83</td>
+                                    
+                                </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
+                                    <th>67</th>
+                                    <td className="p-5">66</td>
+                                    <td>67</td>
+                                    
+                                </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
+                                    <th>97</th>
+                                    <td className="p-5">95</td>
+                                    <td>97</td>
+                                    
+                                </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Front End Design Engineering</th>
+                                    <th>81</th>
+                                    <td className="p-5">71</td>
+                                    <td>73</td>
+                                    
+                                </tr>
+                                <tr className="border-solid border-2 border-black">
+                                    <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
+                                    <th>69</th>
+                                    <td className="p-5">73</td>
+                                    <td>76</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
         </div>
        
     )

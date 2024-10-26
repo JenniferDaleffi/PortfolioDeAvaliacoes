@@ -67,31 +67,31 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
 
-                                    <td className="p-5">83</td>
+                                    <td className="p-5">75</td>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
 
-                                    <td className="p-5">80</td>
+                                    <td className="p-5">75</td>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
 
-                                    <td className="p-5">95</td>
+                                    <td className="p-5">90</td>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
 
-                                    <td className="p-5">52</td>
+                                    <td className="p-5">35</td>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
 
-                                    <td className="p-5">77</td>
+                                    <td className="p-5">80</td>
 
                                 </tr>
                             </tbody>
@@ -112,29 +112,29 @@ export default function Jennifer() {
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">100</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">91</th>
 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">85</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">100</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">70</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">--</th>
+                                    <th className="p-5">75</th>
                                 </tr>
                             </tbody>
                         </table>

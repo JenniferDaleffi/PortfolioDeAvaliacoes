@@ -80,7 +80,7 @@ export default function Julia() {
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <div className=" flex items-center justify-center">
-                            <h1 className="text-4xl text-white flex justify-start"  >CHECKPOINT</h1>
+                            <h1 className="text-4xl text-white flex justify-start mt-5"  >MÉDIA GERAL CHECKPOINT</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>

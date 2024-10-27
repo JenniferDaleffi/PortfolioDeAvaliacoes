@@ -4,7 +4,7 @@ import iconJava from "../../../../public/images/iconjava.png"
 import iconPy from "../../../../public/images/icons8-python-100.png"
 import Juliafoto from "../../../../public/images/juliavasco.jpg"
 import iconType from "../../../../public/images/type.png"
- 
+import calendarioCp from "../../../../public/images/calendariocheckpoint.png"
  
  
 export default function Julia() {
@@ -30,7 +30,8 @@ export default function Julia() {
             <div className="ml-10 mt-10 flex justify-between">
                 <div className="text-center">
                     <Image className="rounded-full w-80 h-80 " src={Juliafoto} alt="Foto da Julia" />
-                    <h1 className="text-2xl mt-5 text-fiap" >Analista de Sistemas</h1>
+                    <h1 className="text-2xl mt-5 text-fiap text-left" >Analista de Sistemas</h1>
+                    <Image className="mt-20" width={500} src={calendarioCp} alt="foto do calendario do cp"></Image>
                 </div>
                 <div className="max-w-xl">
                     <h1 className="text-5xl text-fiap" >Julia Vasconcelos</h1>
@@ -53,7 +54,7 @@ export default function Julia() {
                         <p className="text-white ml-10"><span className="text-amarelo">CP4: </span>(Sem feedback)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP6:</span>(Ainda não corrigido)</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Computational Thinking Using Python:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span>  Exe1 (2,5) - Calculo da comissão foi feita encima do valor total das vendas. Com isso, o calculo não atende ao solicitado. <br /> Exe2 (2,0) - Fluxograma não desenvolvido | Lógica parcialmente correta - o salário não deveria ser subtraído de um dos valores presentes na faixa do IR.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span>Calculo da comissão foi feita encima do valor total das vendas. Fluxograma não desenvolvido.</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Sem feedback)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
@@ -64,14 +65,13 @@ export default function Julia() {
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Front End Design Engineering:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Feedback somente para o líder do grupo.)</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> Os arquivos JS foram referenciados no body.(-15)
-                        <br /> Não é realizado o procedimento de adicionar o usuário ao sessionStorage.(-10) e consequentemente no momento do logout o usuário não é removido do sessionStorage.(-10)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> Os arquivos JS foram referenciados no body.(-15). Não é realizado o procedimento de adicionar o usuário ao sessionStorage.(-10)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Feedback somente para o líder do grupo.)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP6: (...)</span></p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Software Engineering and Business Model:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> 2,3,6,8,10,13 - erradas5 - HU retratam os requisitos sobre a perspectiva de um ator (Tem o Formato definito de Eu como _quero_para), faltou escrever as HU e descrever qual você estava quebrando em tarefas</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span>Faltou escrever as HU e descrever qual você estava quebrando em tarefas</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
-                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span>Nem todas atividades vão para um final de fluxo, atividades sem ligação. o que são as caixas de descrição sem nenhum comentário. Usando atividades para executar decisões. Usar simbolos de Join e Fork na separação e junção de fluxo. Poderia ter usado as caixas de opção para mostrar as diferentes alternativas e escolhas no fluxo</p>
+                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span>Poderia ter usado as caixas de opção para mostrar as diferentes alternativas e escolhas no fluxo</p>
                     </div>
                 </div>
                 <div className="mr-10">
@@ -80,7 +80,7 @@ export default function Julia() {
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <div className=" flex items-center justify-center">
-                            <h1 className="text-4xl text-white flex justify-start mt-5"  >MÉDIA GERAL CHECKPOINT</h1>
+                            <h1 className="text-4xl text-white flex justify-start"  >CHECKPOINT</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
@@ -170,4 +170,3 @@ export default function Julia() {
  
     )
 }
- 

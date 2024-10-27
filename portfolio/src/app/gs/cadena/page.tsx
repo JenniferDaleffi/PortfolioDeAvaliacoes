@@ -4,7 +4,9 @@ import iconPy from "../../../../public/images/icons8-python-100.png"
 import iconJavascript from "../../../../public/images/javascripticon.png"
 import Leonardofoto from "../../../../public/images/leocadena.png"
 import iconType from "../../../../public/images/type.png"
-
+import calendario from "../../../../public/images/calendario.png"
+import Gsleoju from "../../../../public/images/gsleoju.jpg"
+ 
 export default function Leonardo() {
     return (
         <div className="bg-black">
@@ -30,6 +32,7 @@ export default function Leonardo() {
                     <Image className="rounded-full w-80 h-80 " src={Leonardofoto} alt="Foto da Jennifer" />
                     <h1 className="text-2xl mt-5 text-fiap" >Desenvolvedor de Software e</h1>
                     <h1 className="text-2xl mt-3 text-fiap" >Frontend</h1>
+                    <Image className="mt-20" width={350} src={calendario} alt="calendario"></Image>
                 </div>
                 <div className="max-w-xl">
                     <h1 className="text-5xl text-fiap" >Leonardo Cadena</h1>
@@ -38,6 +41,30 @@ export default function Leonardo() {
                         <Image width={90} src={iconJavascript} alt="javascript"></Image>
                         <Image width={90} src={iconPy} alt="python"></Image>
                         <Image width={90} src={iconType} alt="typescript"></Image>
+                    </div>
+                    <div className="mt-10">
+                        <Image className="rounded-lg" src={Gsleoju} alt="imagem da gs da novaonda"></Image>
+                        <h1 className="text-fiap text-xl mt-5">NovaOnda</h1>
+                        <p className="text-white text-lg">NovaOnda é uma plataforma inovadora dedicada a garantir que as atividades humanas nos oceanos sejam ecologicamente responsáveis, socialmente inclusivas e economicamente viáveis a longo prazo. Criada para enfrentar os desafios críticos que nossos oceanos enfrentam, a NovaOnda promove práticas de gestão ambiental, tecnologias avançadas e a colaboração entre governos, empresas, ONGs e comunidades locais.</p>
+                    </div>
+                    <div className="mt-20 border-2 border-white border-solid rounded-lg shadow-2xl shadow-fiap hover:scale-110 hover:duration-300 mb-20">
+                        <h1 className="text-white p-10 text-3xl">Feedback <br /> <span className="text-fiap">Global Solution</span> </h1>
+                        <h1 className="text-fiap ml-10 text-2xl">Artificial Inteligence:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">Fala grupo, perfeito!!! Consegui entender as varáives de contexto, entidades e inteções. Além do STT e TSS. A integração com front ficou showww!! Parabéns!</span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Building Relational Database:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">Ponto de Atenção: - Repensem a utilização de campos obrigatórios para não "quebrar" o seu projeto, exemplo: na modelagem é possivel cadastrar uma ong somente com o ID_ONG preenchido; - A foto da modelagem relacional não ficou legal, parecendo que foi feito as pressas, com algumas informações cortadas.</span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Computational Thinking Using Python:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">Faltou abordar a identificação do problema e a solução proposta. Foi apresentado apenas o Demo da Solução, porém, sem uma explicação do código.
+                        </span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Domain Driven Using Java:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">--
+                        </span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Front End Design Engineering:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">--
+                        </span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Software Engineering and Business Model:</h1>
+                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">Tem que analisar o contexto da aplicação para chegar numa solução específica e que mostre os resultados adequados para o problema que vocês estão trabalhando. Um requisito não-funcional pode ser tão ou mais importante que um requisito funcional.
+                        </span></p>
                     </div>
                 </div>
                 <div className="mr-10">
@@ -53,44 +80,32 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">GS</th>
-                                    <th scope="col">FEEDBACK</th>
-
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">100</th>
-                                    <th className="p-5">Fala grupo, perfeito!!! Consegui entender as varáives de contexto, entidades e inteções. Além do STT e TSS. A integração com front ficou showww!! Parabéns!</th>
-
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">65</th>
-                                    <th className="p-5">Ponto de Atenção:
-- Repensem a utilização de campos obrigatórios para não "quebrar" o seu projeto, exemplo: na modelagem é possivel cadastrar uma ong somente com o ID_ONG preenchido;
-- A foto da modelagem relacional não ficou legal, parecendo que foi feito as pressas, com algumas informações cortadas.</th>
-
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">74</th>
-                                    <th className="p-5"> Faltou abordar a identificação do problema e a solução proposta. Foi apresentado apenas o Demo da Solução, porém, sem uma explicação do código.</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
                                     <th className="p-5">96</th>
-                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">85</th>
-                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
                                     <th className="p-5">77</th>
-                                    <th className="p-5"> Tem que analisar o contexto da aplicação para chegar numa solução específica e que mostre os resultados adequados para o problema que vocês estão trabalhando. Um requisito não-funcional pode ser tão ou mais importante que um requisito funcional.</th>
                                 </tr>
                             </tbody>
                         </table>
@@ -104,41 +119,31 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">GS</th>
-
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">--</th>
-                                    <th className="p-5">--</th>
-
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">--</th>
-                                    <th className="p-5">--</th>
-
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
                                     <th className="p-5">--</th>
-                                    <th className="p-5">--</th>
-
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Domain Driven Using Java</th>
-                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
                                     <th className="p-5">--</th>
-                                    <th className="p-5">--</th>
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">--</th>
                                     <th className="p-5">--</th>
                                 </tr>
                             </tbody>
@@ -147,6 +152,7 @@ export default function Leonardo() {
                 </div>
             </div>
         </div>
-
+ 
     )
 }
+ 

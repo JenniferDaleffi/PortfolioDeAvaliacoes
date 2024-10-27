@@ -4,7 +4,7 @@ import iconPy from "../../../../public/images/icons8-python-100.png"
 import iconJavascript from "../../../../public/images/javascripticon.png"
 import Leonardofoto from "../../../../public/images/leocadena.png"
 import iconType from "../../../../public/images/type.png"
-
+ 
 export default function Leonardo() {
     return (
         <div className="bg-black">
@@ -39,6 +39,39 @@ export default function Leonardo() {
                         <Image width={90} src={iconPy} alt="python"></Image>
                         <Image width={90} src={iconType} alt="typescript"></Image>
                     </div>
+                    <div className="mt-20 border-2 border-white border-solid rounded-lg shadow-2xl shadow-fiap hover:scale-110 hover:duration-300 mb-20">
+                        <h1 className="text-white p-10 text-3xl">Feedback <br /> <span className="text-fiap">CheckPoints</span> </h1>
+                        <h1 className="text-fiap ml-10 text-2xl">Artificial Inteligence:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> Ok</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> Ok</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> Análise de Dados simples porém rica.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> Ok</p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Building Relational Database:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4: </span>(Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP6:</span>(Ainda não corrigido)</p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Computational Thinking Using Python:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span>  Exe1 (2,5) - Calculo da comissão foi feita encima do valor total das vendas. Com isso, o calculo não atende ao solicitado. <br /> Exe2 (2,0) - Fluxograma não desenvolvido | Lógica parcialmente correta - o salário não deveria ser subtraído de um dos valores presentes na faixa do IR.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Domain Driven Using Java:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Front End Design Engineering:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Feedback somente para o líder do grupo.)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> Os arquivos JS foram referenciados no body.(-15)
+                        <br /> Não é realizado o procedimento de adicionar o usuário ao sessionStorage.(-10) e consequentemente no momento do logout o usuário não é removido do sessionStorage.(-10)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Feedback somente para o líder do grupo.)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP6: (...)</span></p>
+                        <h1 className=" mt-3 text-fiap ml-10 text-2xl">Software Engineering and Business Model:</h1>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> 2,3,6,8,10,13 - erradas5 - HU retratam os requisitos sobre a perspectiva de um ator (Tem o Formato definito de Eu como _quero_para), faltou escrever as HU e descrever qual você estava quebrando em tarefas</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span>Nem todas atividades vão para um final de fluxo, atividades sem ligação. o que são as caixas de descrição sem nenhum comentário. Usando atividades para executar decisões. Usar simbolos de Join e Fork na separação e junção de fluxo. Poderia ter usado as caixas de opção para mostrar as diferentes alternativas e escolhas no fluxo</p>
+                    </div>
                 </div>
                 <div className="mr-10">
                     <div>
@@ -46,7 +79,7 @@ export default function Leonardo() {
                             <h1 className="text-4xl text-white" >1º</h1>
                         </div>
                         <div className=" flex items-center justify-center">
-                            <h1 className="text-4xl text-white flex justify-start"  >CHECKPOINT</h1>
+                            <h1 className="text-4xl text-white flex justify-start mt-5">MÉDIA GERAL CHECKPOINT</h1>
                         </div>
                         <table className="mt-5 text-white bg-fiap rounded-lg">
                             <thead>
@@ -59,12 +92,12 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">100</th>
-
+ 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">65</th>
-
+ 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
@@ -94,19 +127,19 @@ export default function Leonardo() {
                                 <tr className="border-solid border-2 border-black">
                                     <th scope="col">DISCIPLINA</th>
                                     <th scope="col">CP</th>
-
+ 
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Artificial Intelligence</th>
                                     <th className="p-5">--</th>
-
+ 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Building Relational Database</th>
                                     <th className="p-5">--</th>
-
+ 
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Computational Thinking Using Python</th>
@@ -130,6 +163,7 @@ export default function Leonardo() {
                 </div>
             </div>
         </div>
-
+ 
     )
 }
+ 

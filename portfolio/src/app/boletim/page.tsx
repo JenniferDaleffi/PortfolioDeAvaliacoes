@@ -38,7 +38,7 @@ export default function Materias() {
         <div className="w-full h-screen bg-black">
             <div className="p-10 flex items-center justify-center gap-12">
                 <Link className="text-white px-10 py-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
-                <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/materias/cad-materia">Cadastro de notas</Link>
+                <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/boletim/cad-materia">Cadastro de notas</Link>
             </div>
             <h2 className="text-5xl mt-2 text-center p-6 text-fiap">Materias</h2>
             <table className="text-white bg-fiap rounded-lg mb-5 mt-5 flex flex-col mx-auto max-w-2xl text-xl">
@@ -58,7 +58,7 @@ export default function Materias() {
                             <td className="border-solid border-2 border-black">{m.Jennifer}</td>
                             <td className="border-solid border-2 border-black">{m.Julia}</td>
                             <td className="border-solid border-2 border-black">{m.Leonardo}</td>
-                            <td className="border-solid border-2 border-black"> <Link href={`/materias/${m.$id}`}>EDITAR </Link> |
+                            <td className="border-solid border-2 border-black"> <Link href={`/boletim/${m.$id}`}>EDITAR </Link> |
                                 <Link href="#" onClick={() => handleDelete(m.$id)}> EXCLUIR </Link></td>
                         </tr>
                     ))}

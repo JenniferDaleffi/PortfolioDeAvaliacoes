@@ -50,7 +50,7 @@ export default function CadProduto() {
     <div className="w-full h-screen bg-black">
       <div className="p-10 flex gap-6 items-center justify-center">
         <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black px-6" href="/">Home</Link>
-        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black px-6" href="/materias">Notas</Link>
+        <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black px-6" href="/boletim">Notas</Link>
       </div>
 
 

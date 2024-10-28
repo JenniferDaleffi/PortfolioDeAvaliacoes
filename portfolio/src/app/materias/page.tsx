@@ -1,5 +1,5 @@
 "use client"
-;
+
 import { TipoMateria } from "@/types/types";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -8,8 +8,8 @@ export default function Materias() {
 
     const [listaMaterias, setlistaMaterias] = useState<TipoMateria[]>([])
     
-            const chamadaApi = async () => {
-                const response = await fetch("http://localhost:3000/api/base-disciplina");
+            const chamaApi = async () => {
+                const response = await fetch("/api/base-disciplina");
                 const data = await response.json();
                 const { documents } = data;
                 console.log(documents);
@@ -17,17 +17,17 @@ export default function Materias() {
             }
 
     useEffect(() => {
-        chamadaApi();
+        chamaApi();
     }, [])
 
     const handleDelete = async (id:string) =>{
         try {
-            const response = await fetch(`http://localhost:3000/api/base-disciplina/${id}`,{
+            const response = await fetch(`/api/base-disciplina/${id}`,{
                 method: 'DELETE',
             });
             if (response.ok) {
                 alert("Meteria excluída com sucesso!");
-                chamadaApi();
+                chamaApi();
             }
         } catch (error) {
             console.error("Erro na exclusão da materia!", error);
@@ -36,8 +36,9 @@ export default function Materias() {
 
   return (
     <div className="w-full h-screen bg-black">
-        <div className="p-10">
-            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+        <div className="p-10 flex items-center justify-center gap-12">
+            <Link className="text-white px-10 py-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/materias/cad-materia">Cadastro de notas</Link>
         </div>
         <h2 className="text-5xl mt-2 text-center p-6 text-fiap">Materias</h2>
             <table className="text-white bg-fiap rounded-lg mb-5 mt-5 flex flex-col mx-auto max-w-2xl text-xl">

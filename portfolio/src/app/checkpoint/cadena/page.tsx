@@ -44,9 +44,9 @@ export default function Leonardo() {
                     <div className="mt-20 border-2 border-white border-solid rounded-lg shadow-2xl shadow-fiap hover:scale-110 hover:duration-300 mb-20 w-80 lg:w-11/12">
                         <h1 className="text-white p-10 text-3xl">Feedback <br /> <span className="text-fiap">CheckPoints</span> </h1>
                         <h1 className="text-fiap ml-10 text-2xl">Artificial Inteligence:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> Ok</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> Boa tarde grupo, muito legal a implementação que vcs fizeram! Gostei do nome do Bot (Jaildo) e as interações! Parabéns! 10zão</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> Ok</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> Análise de Dados simples porém rica.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> Ok.</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> Ok</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Building Relational Database:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> (Sem feedback)</p>
@@ -54,10 +54,12 @@ export default function Leonardo() {
                         <p className="text-white ml-10"><span className="text-amarelo">CP4: </span>(Sem feedback)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP6:</span>(Ainda não corrigido)</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Computational Thinking Using Python:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span>.Calculo da comissão foi feita encima do valor total das vendas. Com isso, o calculo não atende ao solicitado.</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Sem feedback)</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP1:</span>.Implementação com lista (dias da semana) | Erro de lógica nos testes | Parcialmente correto. 
+                        <br />Fluxograma não atende ao solicitado | código ok!</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>ok - poderiam ter aplicado a estrutura de repetição para percorrer a lista na impressão dos dados.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> Poderia imprimir o tabuleiro sempre que uma jogada ocorrer, mesmo com a casa ocupada.</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> Programa Python + 4 algoritmos - o programa não lê, nem escreve em arquivos. Implementação ok!
+                        <br />Relatório + gráficos - as simulações deveriam ocorrer com listas do mesmo tamanho | simulação parcialmente desenvolvida. Os gráficos deveriam ser utilizado para comparar os tempos de cada algoritmo e não individualmente.</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Domain Driven Using Java:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP1:</span> (Sem feedback)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Sem feedback)</p>
@@ -65,14 +67,13 @@ export default function Leonardo() {
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Front End Design Engineering:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Feedback somente para o líder do grupo.)</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> Os arquivos JS foram referenciados no body.(-15)
-                        <br /> Não é realizado o procedimento de adicionar o usuário ao sessionStorage.(-10).</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> (sem feedback) </p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Feedback somente para o líder do grupo.)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP6: (...)</span></p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Software Engineering and Business Model:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> HU retratam os requisitos sobre a perspectiva de um ator</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP2:</span> 5 - HU retratam os requisitos sobre a perspectiva de um ator.</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
-                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span>Poderia ter usado as caixas de opção para mostrar as diferentes alternativas e escolhas no fluxo</p>
+                        <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span> (Sem feedback)</p>
                     </div>
                 </div>
                 <div className="mr-10">

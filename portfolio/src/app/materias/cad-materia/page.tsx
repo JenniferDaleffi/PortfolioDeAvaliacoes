@@ -22,7 +22,7 @@ export default function CadProduto() {
     
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3000/api/base-disciplina", {
+      const response = await fetch("/api/base-disciplina", {
         method: "POST",
         headers:{"Content-Type":"application/json"},
         body: JSON.stringify(materia),
@@ -60,24 +60,24 @@ export default function CadProduto() {
             <form onSubmit={handleSubmit} className="flex flex-col w-1/4 h-3/4 px-8 justify-center gap-6 bg-fiap rounded-xl">
                 <div className="flex items-center justify-center" >
                   <label className="text-2xl text-white p-3">Disciplina:</label>
-                  <input className="px-4 py-2 rounded-md w-96" type="text" name="nome" value={materia.disciplina} placeholder="Digite o nome da disciplina." required 
+                  <input className="px-4 py-2 rounded-md w-96" type="text" name="disiciplina" value={materia.disciplina} placeholder="Digite o nome da disciplina." required 
                     onChange={(e)=> setMateria({...materia, disciplina: e.target.value})}
                   />
                 </div>
                 <div className="flex items-center justify-center">
                   <label className="text-2xl text-white p-3">Jennifer:</label>
-                  <input className="px-4 py-2 rounded-md w-96" type="number" name="preco" value={materia.Jennifer} placeholder="Digite a nota da jennifer." required
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="Jennifer" value={materia.Jennifer} placeholder="Digite a nota da jennifer." required
                   onChange={(e)=> setMateria({...materia, Jennifer: parseFloat(e.target.value)})}  min={0}/>
                 </div>
                 <div className="flex items-center justify-center">
                   <label className="text-2xl text-white p-3">Julia:</label>
-                  <input className="px-4 py-2 rounded-md w-96" type="number" name="estoque" value={materia.Julia} placeholder="Digite a nota da julia" required
-                  onChange={(e)=> setMateria({...materia, Julia: parseInt(e.target.value)})}  min={0}/>
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="Julia" value={materia.Julia} placeholder="Digite a nota da julia" required
+                  onChange={(e)=> setMateria({...materia, Julia: parseFloat(e.target.value)})}  min={0}/>
                 </div>
                 <div className=" flex items-center justify-center">
                   <label className="text-2xl text-white p-3">Leonardo:</label>
-                  <input className="px-4 py-2 rounded-md w-96" type="number" name="estoque" value={materia.Leonardo} placeholder="Digite a nota do leonardo." required
-                  onChange={(e)=> setMateria({...materia, Leonardo: parseInt(e.target.value)})}  min={0}/>
+                  <input className="px-4 py-2 rounded-md w-96" type="number" name="Leonardo" value={materia.Leonardo} placeholder="Digite a nota do leonardo." required
+                  onChange={(e)=> setMateria({...materia, Leonardo: parseFloat(e.target.value)})}  min={0}/>
                 </div>
                 <div className="text-center">
                   <button className="px-4 py-2 bg-white rounded-2xl hover:bg-black hover:text-white text-xl hover:duration-500" type="submit">Cadastrar</button>

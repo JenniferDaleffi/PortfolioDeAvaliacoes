@@ -65,12 +65,12 @@ export default function Julia() {
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Sem feedback)</p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Front End Design Engineering:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2: </span>(Feedback somente para o líder do grupo.)</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> Os arquivos JS foram referenciados no body.(-15). Não é realizado o procedimento de adicionar o usuário ao sessionStorage.(-10)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP3:</span> front: feedback cp1=estrutura e semântica: nota = 75</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP5:</span> (Feedback somente para o líder do grupo.)</p>
                         <p className="text-white ml-10"><span className="text-amarelo">CP6: (...)</span></p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Software Engineering and Business Model:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">CP2:</span>Faltou escrever as HU e descrever qual você estava quebrando em tarefas</p>
-                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span> (Sem feedback)</p>
+                        <p className="text-white ml-10"><span className="text-amarelo">CP4:</span>   9 e 10 erradas</p>
                         <p className="text-white ml-10 mb-5"><span className="text-amarelo">CP5: </span>Poderia ter usado as caixas de opção para mostrar as diferentes alternativas e escolhas no fluxo</p>
                     </div>
                 </div>

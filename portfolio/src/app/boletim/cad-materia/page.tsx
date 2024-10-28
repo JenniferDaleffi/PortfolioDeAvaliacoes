@@ -39,7 +39,7 @@ export default function CadProduto() {
           Leonardo: 0.0,
         });
         console.log(data);
-        navigate.push("/materias");
+        navigate.push("/boletim");
       }
     } catch (error) {
       console.error("Falha no cadastramento: ", error);

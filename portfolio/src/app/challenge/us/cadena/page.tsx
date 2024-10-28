@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import iconPy from "../../../../public/images/icons8-python-100.png"
-import iconJavascript from "../../../../public/images/javascripticon.png"
-import Leonardofoto from "../../../../public/images/leocadena.png"
-import iconType from "../../../../public/images/type.png"
+import iconPy from "../../../../../public/images/icons8-python-100.png"
+import iconJavascript from "../../../../../public/images/javascripticon.png"
+import Leonardofoto from "../../../../../public/images/leocadena.png"
+import iconType from "../../../../../public/images/type.png"
 
 export default function Leonardo() {
     return (

@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import iconJava from "../../../../public/images/iconjava.png"
-import iconPy from "../../../../public/images/icons8-python-100.png"
-import Jenniferfoto from "../../../../public/images/jennifer.png"
-import iconMongo from "../../../../public/images/mongodb.png"
+import iconJava from "../../../../../public/images/iconjava.png"
+import iconPy from "../../../../../public/images/icons8-python-100.png"
+import Jenniferfoto from "../../../../../public/images/jennifer.png"
+import iconMongo from "../../../../../public/images/mongodb.png"
 
 
 export default function Jennifer() {

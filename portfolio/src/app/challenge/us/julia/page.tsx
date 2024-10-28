@@ -1,9 +1,9 @@
 import Image from "next/image"
 import Link from "next/link"
-import iconJava from "../../../../public/images/iconjava.png"
-import iconPy from "../../../../public/images/icons8-python-100.png"
-import Juliafoto from "../../../../public/images/juliavasco.jpg"
-import iconType from "../../../../public/images/type.png"
+import iconJava from "../../../../../public/images/iconjava.png"
+import iconPy from "../../../../../public/images/icons8-python-100.png"
+import Juliafoto from "../../../../../public/images/type.png"
+import iconType from "../../../../../public/images/type.png"
 
 
 

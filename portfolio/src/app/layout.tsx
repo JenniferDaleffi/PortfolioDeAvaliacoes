@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
 
-import Cp from "@/app/checkpoint/page";
-import Cabecalho from "@/components/Cabecalho/cabecalho";
-import Footer from "../components/Footer/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {

@@ -44,7 +44,7 @@ export default function Julia() {
                     <div className="mt-10">
                         <Image className="rounded-lg w-80 lg:w-11/12" src={LeoJuChallenge} alt="challenge leo e julia"></Image>
                         <h1 className="mt-5 text-xl text-fiap">ConectCar</h1>
-                        <p className="text-lg break-all text-white">O projeto "ConectCar" apresenta uma solução inovadora para o mercado de reparação automotiva, enfocando a experiência digital e a eficiência dos serviços prestados. A proposta central é a criação de um sistema integrado que permite aos clientes do Centro Automotivo Porto a realização de diagnósticos veiculares e a contratação de serviços de reparo de forma online, sem a necessidade de deslocamento até a oficina mecânica para a primeira avaliação.</p>
+                        <p className="text-lg break-all text-white">O projeto ConectCar apresenta uma solução inovadora para o mercado de reparação automotiva, enfocando a experiência digital e a eficiência dos serviços prestados. A proposta central é a criação de um sistema integrado que permite aos clientes do Centro Automotivo Porto a realização de diagnósticos veiculares e a contratação de serviços de reparo de forma online, sem a necessidade de deslocamento até a oficina mecânica para a primeira avaliação.</p>
                     </div>
                     <div className="mt-20 border-2 border-white border-solid rounded-lg shadow-2xl shadow-fiap hover:scale-110 hover:duration-300 mb-20 w-80 lg:w-11/12">
                         <h1 className="text-white p-10 text-3xl">Feedback <br /> <span className="text-fiap">Challenge</span> </h1>

@@ -46,8 +46,8 @@ export default function Jennifer() {
                     <div className="mt-10">
                         <Image className="rounded-lg w-80 lg:w-10/12" src={JenniChallenge} alt="imagem do FixerAI"></Image>
                         <h1 className="mt-5 text-fiap text-xl">FixerAI</h1>
-                        <p className="text-lg text-white">O projeto "ReciclaBalsa: Transporte
-                        Marítimo Sustentável para a Região de São Paulo" propõe de forma multidisciplinar contendo uma base de dados, python, java, frontend, business model e inteligência artificial a criação que facilite a integração de iniciativas de reciclagem com o transporte fluvial, visando promover práticas sustentáveis e reduzir a emissão de poluentes.</p>
+                        <p className="text-lg text-white">O projeto ReciclaBalsa: Transporte
+                        Marítimo Sustentável para a Região de São Paulo propõe de forma multidisciplinar contendo uma base de dados, python, java, frontend, business model e inteligência artificial a criação que facilite a integração de iniciativas de reciclagem com o transporte fluvial, visando promover práticas sustentáveis e reduzir a emissão de poluentes.</p>
                     </div>
                     <div className="mt-20 border-2 border-white border-solid rounded-lg shadow-2xl shadow-fiap hover:scale-110 hover:duration-300 mb-20 w-80 lg:w-11/12">
                         <h1 className="text-white p-10 text-3xl">Feedback <br /> <span className="text-fiap">Challenge</span> </h1>

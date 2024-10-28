@@ -52,7 +52,7 @@ export default function Leonardo() {
                         <h1 className="text-fiap ml-10 text-2xl">Artificial Inteligence:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">Fala grupo, perfeito!!! Consegui entender as varáives de contexto, entidades e inteções. Além do STT e TSS. A integração com front ficou showww!! Parabéns!</span></p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Building Relational Database:</h1>
-                        <p className="text-white ml-10"><span className="text-amarelo">Ponto de Atenção: - Repensem a utilização de campos obrigatórios para não "quebrar" o seu projeto, exemplo: na modelagem é possivel cadastrar uma ong somente com o ID_ONG preenchido; - A foto da modelagem relacional não ficou legal, parecendo que foi feito as pressas, com algumas informações cortadas.</span></p>
+                        <p className="text-white ml-10"><span className="text-amarelo">Ponto de Atenção: - Repensem a utilização de campos obrigatórios para não quebrar o seu projeto, exemplo: na modelagem é possivel cadastrar uma ong somente com o ID_ONG preenchido; - A foto da modelagem relacional não ficou legal, parecendo que foi feito as pressas, com algumas informações cortadas.</span></p>
                         <h1 className=" mt-3 text-fiap ml-10 text-2xl">Computational Thinking Using Python:</h1>
                         <p className="text-white ml-10"><span className="text-amarelo">Faltou abordar a identificação do problema e a solução proposta. Foi apresentado apenas o Demo da Solução, porém, sem uma explicação do código.
                         </span></p>

@@ -1,49 +1,30 @@
-import { Databases } from "appwrite";
-import { NextResponse } from "next/server";
+import { Databases, ID, Query } from "appwrite";
 import client from "../../../lib/appwrite_client";
+import { NextResponse } from "next/server";
+import { TipoMateria } from "@/types/types";
+
+
 
 const database = new Databases(client);
 
-export async function GET(request: Request, { params }: { params: { id: string } }) {
+export async function GET() {
     try {
-        const response = await database.getDocument(
-            process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string,
-            process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string,
-            params.id
-        );
+        const response = await database.listDocuments(process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string, process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string,[Query.orderAsc("$createdAt")]);
         return NextResponse.json(response);
     } catch (error) {
-        console.error("Erro ao obter documento:", error);
-        return NextResponse.json({ error: "Falha na obtenção da informação. " + error }, { status: 500 });
+        return NextResponse.json({error: "Falha na obtenção das informações."+ error}, {status:500})
     }
 }
 
-export async function PUT(request: Request, { params }: { params: { id: string } }) {
-    try {
-        const materia = await request.json();
-        await database.updateDocument(
-            process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string,
-            process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string,
-            params.id,
-            materia
-        );
-        return NextResponse.json({ msg: "Matéria alterada com sucesso!" });
-    } catch (error) {
-        console.error("Erro ao atualizar documento:", error);
-        return NextResponse.json({ error: "Falha na atualização da matéria: " + error }, { status: 500 });
-    }
-}
 
-export async function DELETE(request: Request, { params }: { params: { id: string } }) {
+export async function POST(request:Request) {
     try {
-        await database.deleteDocument(
-            process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string,
-            process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string,
-            params.id
-        );
-        return NextResponse.json({}, { status: 204 });
+        const{disciplina, Jennifer, Julia, Leonardo} = await request.json();
+        const materia = {disciplina, Jennifer, Julia, Leonardo} as TipoMateria;
+        const response = await database.createDocument(process.env.NEXT_PUBLIC_APPWRITE_DATABASE_ID as string, process.env.NEXT_PUBLIC_APPWRITE_COLLECTION_ID as string, ID.unique(), materia);
+
+        return NextResponse.json(response,{status:201});
     } catch (error) {
-        console.error("Erro ao excluir documento:", error);
-        return NextResponse.json({ error: "Falha na exclusão da matéria: " + error }, { status: 500 });
+        return NextResponse.json({error: "Falha na criação da disciplina: " + error},{status:500});
     }
 }

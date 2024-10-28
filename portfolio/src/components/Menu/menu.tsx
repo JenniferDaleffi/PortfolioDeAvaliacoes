@@ -3,9 +3,7 @@ import challenge from "../../../public/images/challenge.svg"
 import checkpoint from "../../../public/images/checkpoint.svg"
 import global from "../../../public/images/global.svg"
 import Link from "next/link"
-import dashboardJenni from "../../../public/images/dashboardjenni.png"
-import dashboardLeo from "../../../public/images/dashboardleo.png"
-import dashboardJulia from "../../../public/images/dashboardjulia.png"
+
  
 export default function Menu() {
     return (

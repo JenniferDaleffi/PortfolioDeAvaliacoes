@@ -1,8 +1,6 @@
 import Menu from "../Menu/menu";
 import Nav from "../Nav/nav";
 import Image from "next/image";
-import Jennifer from "../../../public/images/jennifer.png"
-import grafico from "../../../public/images/Blue and White Weekly House Expenses Chart Graph.png"
 import dashboardJenni from "../../../public/images/dashboardjenni.png"
 import dashboardLeo from "../../../public/images/dashboardleo.png"
 import dashboardJulia from "../../../public/images/dashboardjulia.png"

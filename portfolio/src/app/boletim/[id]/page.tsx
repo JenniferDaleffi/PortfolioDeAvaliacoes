@@ -47,7 +47,7 @@ export default function EditarMaterias({ params }: { params: { id: number } }) {
           Leonardo: 0.0,
         });
         console.log(data);
-        navigate.push("/materias");
+        navigate.push("/boletim");
       }
     } catch (error) {
       console.error("Falha na atualização: ", error);

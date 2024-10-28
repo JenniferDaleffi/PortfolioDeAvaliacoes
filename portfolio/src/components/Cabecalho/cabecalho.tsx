@@ -20,11 +20,11 @@ export default function Cabecalho() {
                     </div>
                     <div className="bg-black flex flex-col items-center gap-10 flex-wrap">
                         <div className="flex justify-around mt-20 mb-10 bg-black gap-10 flex-wrap">
-                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={450} src={dashboardJenni} alt="dashboard da jennifer"></Image>
-                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={450} src={dashboardLeo} alt="dashboard do leonardo"></Image>
+                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={350} src={dashboardJenni} alt="dashboard da jennifer"></Image>
+                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={350} src={dashboardLeo} alt="dashboard do leonardo"></Image>
                         </div>
                         <div>
-                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={450} src={dashboardJulia} alt="dashboard da julia"></Image>
+                            <Image className="rounded-lg border-white border-2 border-solid p-5 hover:scale-110 hover:duration-300" width={350} src={dashboardJulia} alt="dashboard da julia"></Image>
                         </div>
                     </div>
                 </div>

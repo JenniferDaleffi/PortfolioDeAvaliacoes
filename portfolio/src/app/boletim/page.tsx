@@ -7,22 +7,22 @@ import { useEffect, useState } from "react";
 export default function Materias() {
 
     const [listaMaterias, setlistaMaterias] = useState<TipoMateria[]>([])
-    
-            const chamaApi = async () => {
-                const response = await fetch("/api/base-disciplina");
-                const data = await response.json();
-                const { documents } = data;
-                console.log(documents);
-                setlistaMaterias(documents);
-            }
+
+    const chamaApi = async () => {
+        const response = await fetch("/api/base-disciplina");
+        const data = await response.json();
+        const { documents } = data;
+        console.log(documents);
+        setlistaMaterias(documents);
+    }
 
     useEffect(() => {
         chamaApi();
     }, [])
 
-    const handleDelete = async (id:string) =>{
+    const handleDelete = async (id: string) => {
         try {
-            const response = await fetch(`/api/base-disciplina/${id}`,{
+            const response = await fetch(`/api/base-disciplina/${id}`, {
                 method: 'DELETE',
             });
             if (response.ok) {
@@ -34,13 +34,13 @@ export default function Materias() {
         }
     }
 
-  return (
-    <div className="w-full h-screen bg-black">
-        <div className="p-10 flex items-center justify-center gap-12">
-            <Link className="text-white px-10 py-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
-            <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/materias/cad-materia">Cadastro de notas</Link>
-        </div>
-        <h2 className="text-5xl mt-2 text-center p-6 text-fiap">Materias</h2>
+    return (
+        <div className="w-full h-screen bg-black">
+            <div className="p-10 flex items-center justify-center gap-12">
+                <Link className="text-white px-10 py-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/">Home</Link>
+                <Link className="text-white p-2 rounded-md border-white border-solid border-2 hover:bg-fiap transition duration-500 hover:border-black" href="/materias/cad-materia">Cadastro de notas</Link>
+            </div>
+            <h2 className="text-5xl mt-2 text-center p-6 text-fiap">Materias</h2>
             <table className="text-white bg-fiap rounded-lg mb-5 mt-5 flex flex-col mx-auto max-w-2xl text-xl">
                 <thead className="">
                     <tr className="border-solid border-2 border-black">
@@ -52,14 +52,14 @@ export default function Materias() {
                     </tr>
                 </thead>
                 <tbody>
-                    {listaMaterias.map((m)=>(
+                    {listaMaterias.map((m) => (
                         <tr key={m.$id}>
                             <td className="border-solid border-2 border-black">{m.disciplina}</td>
                             <td className="border-solid border-2 border-black">{m.Jennifer}</td>
                             <td className="border-solid border-2 border-black">{m.Julia}</td>
                             <td className="border-solid border-2 border-black">{m.Leonardo}</td>
-                            <td className="border-solid border-2 border-black"> <Link href={`/materias/${m.$id}`}>EDITAR </Link> |    
-                            <Link href="#" onClick={()=> handleDelete(m.$id)}> EXCLUIR </Link></td>
+                            <td className="border-solid border-2 border-black"> <Link href={`/materias/${m.$id}`}>EDITAR </Link> |
+                                <Link href="#" onClick={() => handleDelete(m.$id)}> EXCLUIR </Link></td>
                         </tr>
                     ))}
                 </tbody>
@@ -70,7 +70,7 @@ export default function Materias() {
                         </td>
                     </tr>
                 </tfoot>
-            </table> 
-    </div>
-  )
+            </table>
+        </div>
+    )
 }

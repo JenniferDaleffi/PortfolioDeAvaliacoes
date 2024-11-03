@@ -115,7 +115,7 @@ export default function Jennifer() {
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Front End Design Engineering</th>
  
-                                    <td className="p-5">35</td>
+                                    <td className="p-5">--</td>
  
                                 </tr>
                                 <tr className="border-solid border-2 border-black">

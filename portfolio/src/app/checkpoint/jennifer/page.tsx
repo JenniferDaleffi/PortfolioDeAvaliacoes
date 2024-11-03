@@ -118,7 +118,7 @@ export default function Jennifer() {
                                 </tr>
                                 <tr className="border-solid border-2 border-black">
                                     <th className="border-solid border-2 border-black">Software Engineering and Business Model</th>
-                                    <th className="p-5">29</th>
+                                    <th className="p-5">60</th>
  
                                 </tr>
                             </tbody>
